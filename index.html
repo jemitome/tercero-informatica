@@ -39,6 +39,40 @@
 
 <embed src="tilt.mp3"></embed><br>
 <audio src="tilt.mp3" controls=""></audio><br>
+<form action="procesar.php" method="POST">
+	<label for="TITULO">FORMULARIO</label><br>
+	<input type="text" name="nombre" placeholder="Ingrese el Nombre" required minlength="3" maxlength="25"><br>
+<input type="email" name="email" required="" placeholder="Ingrese Email"><br>
+<input type="password" name="password" id="" placeholder="Ingrese Contraseña"><br>
+<input type="date" name="fecha" id=""><br>
+<input type="month" name="mes" id=""><br>
+<input type="week" name="semana" id=""><br><br>
+<input type="color" name="color" id="" value="#3350FF"><br>
+<input type="range" name="rango" id="" step="5" max="100"><br>
+<input type="file" name="" id="" multiple=""><br>
+<input type="radio" name="genero" id="" value="masculino"<label for="">MASCULINO</label>
+<input type="radio" name="genero" id="" value="femenino"<label for="">FEMENINO</label>
+<input type="radio" name="genero" id="" value="OTRO"<label for="">OTRO</label><br>
+<input type="checkbox" name="salsa" id="" value="salsa"><label for="">salsa</label>
+<input type="checkbox" name="pop" id="" value="pop"><label for="">pop</label><br>
+<input type="datetime-local" name="local" id="">
+<input type="datetime" name="tiempo" id=""><br>
+<textarea name="mensaje" id="" cols="30" rows="10">
+escribe tu mensaje aquí
+</textarea><br>
+<input type="url" name="url" placeholder="Ingresar Url" id="">
+<select name="select" id="">
+	<option value="SELECCIONAR">SELECCIONE SU PAIS </option>
+	<option value="ECUADOR">ECUADOR</option>
+	<option value="PERU">PERU</option>
+	<option value="ALEMANIA">ALEMANIA</option>
+	<option value="COLOMBIA">COLOMBIA</option>
+	<option value="CANADA">CANADA</option>
+	<option value="CHILE">CHILE</option>
+	<option value="FRANCIA">FRANCIA</option>
+</select>	
+<input type="submit" value="Enviar" name="Enviar" id>
+</form>
 
 </body>
 </html>
